@@ -49,6 +49,7 @@ public class MutableSignal<T>: Signal<T> {
                 ctx.updated()
             }
         }
+        self.objectWillChange.send()
     }
 }
 
@@ -62,3 +63,4 @@ extension MutableSignal where T: Equatable {
         self.executeMutation(value, transaction)
     }
 }
+

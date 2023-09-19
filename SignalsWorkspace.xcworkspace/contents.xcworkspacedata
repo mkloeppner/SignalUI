@@ -5,6 +5,9 @@
       location = "group:SignalsUI/SignalsUI.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SignalUI">
+   </FileRef>
+   <FileRef
       location = "group:Signals">
    </FileRef>
 </Workspace>

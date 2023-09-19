@@ -2,7 +2,7 @@
 //  SignalsUITests.swift
 //  SignalsUITests
 //
-//  Created by Martin Klöppner on 9/19/23.
+//  Created by Martin Klöppner.
 //
 
 import XCTest

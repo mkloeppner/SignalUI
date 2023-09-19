@@ -7,10 +7,19 @@
 
 import Foundation
 
+public protocol Observable {
+    associatedtype T
+    
+    func fn(_ ctx: any Context) -> T
+}
+
 /**
  * A signal represents a value that is observed by different contexts.
  */
-public class Signal<T> {
+public class Signal<T>: ObservableObject, Observable {
+    public typealias T = T
+    
+    public let uuid: String = UUID().uuidString
     /**
      *  All contexts that using the signal.
      *  These contexts need to be updated if the signal changes.
@@ -21,7 +30,7 @@ public class Signal<T> {
      * The current value that the signal represents
      */
 #if os(iOS)
-    @Published public var value: T
+    @Published public var value: T 
 #else
     public var value: T
 #endif
@@ -41,6 +50,8 @@ public class Signal<T> {
         for ctx in self.usedInCtxs {
             ctx.update()
         }
+        
+        self.objectWillChange.send()
     }
     
     /**
@@ -68,7 +79,8 @@ extension Signal where T: Equatable {
     }
 }
 
-#if os(iOS)
-extension Signal: ObservableObject {
+extension Signal: Equatable where T: Equatable {
+    public static func == (lhs: Signal<T>, rhs: Signal<T>) -> Bool {
+        return lhs.value == rhs.value
+    }
 }
-#endif

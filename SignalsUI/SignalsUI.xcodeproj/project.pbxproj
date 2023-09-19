@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B546499D2ABC451B004AC8CC /* BalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546499C2ABC451B004AC8CC /* BalanceModel.swift */; };
+		B546499F2ABC4729004AC8CC /* UserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546499E2ABC4729004AC8CC /* UserScreen.swift */; };
+		B59FA36F2ABA01D0001C8500 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FA36E2ABA01D0001C8500 /* StateView.swift */; };
+		B59FA3BA2ABA0CB8001C8500 /* SignalUI in Frameworks */ = {isa = PBXBuildFile; productRef = B59FA3B92ABA0CB8001C8500 /* SignalUI */; };
+		B5AD44FB2ABA4CEB003A3946 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD44FA2ABA4CEB003A3946 /* LoginScreen.swift */; };
+		B5AD453C2ABB9070003A3946 /* StateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD453B2ABB9070003A3946 /* StateText.swift */; };
+		B5AD45412ABB9F84003A3946 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD45402ABB9F84003A3946 /* HomeScreen.swift */; };
+		B5AD45482ABBB732003A3946 /* SessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD45472ABBB732003A3946 /* SessionState.swift */; };
+		B5AD454A2ABC3240003A3946 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD45492ABC3240003A3946 /* AgeView.swift */; };
 		B5AD8C732AB9E9FF00ED024F /* SignalsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C722AB9E9FF00ED024F /* SignalsUIApp.swift */; };
-		B5AD8C752AB9E9FF00ED024F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C742AB9E9FF00ED024F /* ContentView.swift */; };
+		B5AD8C752AB9E9FF00ED024F /* SignalsStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C742AB9E9FF00ED024F /* SignalsStateView.swift */; };
 		B5AD8C772AB9E9FF00ED024F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD8C762AB9E9FF00ED024F /* Assets.xcassets */; };
 		B5AD8C7A2AB9E9FF00ED024F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD8C792AB9E9FF00ED024F /* Preview Assets.xcassets */; };
 		B5AD8C842AB9E9FF00ED024F /* SignalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C832AB9E9FF00ED024F /* SignalsUITests.swift */; };
 		B5AD8C8E2AB9E9FF00ED024F /* SignalsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C8D2AB9E9FF00ED024F /* SignalsUIUITests.swift */; };
 		B5AD8C902AB9E9FF00ED024F /* SignalsUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C8F2AB9E9FF00ED024F /* SignalsUIUITestsLaunchTests.swift */; };
 		B5AD8C9E2AB9EAF600ED024F /* Signals in Frameworks */ = {isa = PBXBuildFile; productRef = B5AD8C9D2AB9EAF600ED024F /* Signals */; };
-		B5AD8CA02AB9EC7700ED024F /* SText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD8C9F2AB9EC7700ED024F /* SText.swift */; };
-		B5B4AAE32AB9FB0D00426553 /* STextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4AAE22AB9FB0D00426553 /* STextField.swift */; };
+		B5DA3DB32ABF886300FE9469 /* VoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA3DB22ABF886300FE9469 /* VoucherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B546499C2ABC451B004AC8CC /* BalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceModel.swift; sourceTree = "<group>"; };
+		B546499E2ABC4729004AC8CC /* UserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreen.swift; sourceTree = "<group>"; };
+		B59FA36E2ABA01D0001C8500 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		B5AD44FA2ABA4CEB003A3946 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		B5AD453B2ABB9070003A3946 /* StateText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateText.swift; sourceTree = "<group>"; };
+		B5AD45402ABB9F84003A3946 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B5AD45472ABBB732003A3946 /* SessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionState.swift; sourceTree = "<group>"; };
+		B5AD45492ABC3240003A3946 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
 		B5AD8C6F2AB9E9FF00ED024F /* SignalsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AD8C722AB9E9FF00ED024F /* SignalsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsUIApp.swift; sourceTree = "<group>"; };
-		B5AD8C742AB9E9FF00ED024F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5AD8C742AB9E9FF00ED024F /* SignalsStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsStateView.swift; sourceTree = "<group>"; };
 		B5AD8C762AB9E9FF00ED024F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5AD8C792AB9E9FF00ED024F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5AD8C7F2AB9E9FF00ED024F /* SignalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,8 +63,7 @@
 		B5AD8C892AB9E9FF00ED024F /* SignalsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AD8C8D2AB9E9FF00ED024F /* SignalsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsUIUITests.swift; sourceTree = "<group>"; };
 		B5AD8C8F2AB9E9FF00ED024F /* SignalsUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B5AD8C9F2AB9EC7700ED024F /* SText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SText.swift; sourceTree = "<group>"; };
-		B5B4AAE22AB9FB0D00426553 /* STextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STextField.swift; sourceTree = "<group>"; };
+		B5DA3DB22ABF886300FE9469 /* VoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59FA3BA2ABA0CB8001C8500 /* SignalUI in Frameworks */,
 				B5AD8C9E2AB9EAF600ED024F /* Signals in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +93,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5AD44F92ABA4CD9003A3946 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD44FA2ABA4CEB003A3946 /* LoginScreen.swift */,
+				B5AD45402ABB9F84003A3946 /* HomeScreen.swift */,
+				B5AD45492ABC3240003A3946 /* AgeView.swift */,
+				B546499E2ABC4729004AC8CC /* UserScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B5AD453A2ABB8FF8003A3946 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD453B2ABB9070003A3946 /* StateText.swift */,
+				B59FA36E2ABA01D0001C8500 /* StateView.swift */,
+				B5AD8C742AB9E9FF00ED024F /* SignalsStateView.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		B5AD45462ABBB732003A3946 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD45472ABBB732003A3946 /* SessionState.swift */,
+				B546499C2ABC451B004AC8CC /* BalanceModel.swift */,
+				B5DA3DB22ABF886300FE9469 /* VoucherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B5AD8C662AB9E9FE00ED024F = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +149,11 @@
 			isa = PBXGroup;
 			children = (
 				B5AD8C722AB9E9FF00ED024F /* SignalsUIApp.swift */,
-				B5AD8C742AB9E9FF00ED024F /* ContentView.swift */,
+				B5AD45462ABBB732003A3946 /* Model */,
+				B5AD44F92ABA4CD9003A3946 /* Screens */,
+				B5AD453A2ABB8FF8003A3946 /* Examples */,
 				B5AD8C762AB9E9FF00ED024F /* Assets.xcassets */,
 				B5AD8C782AB9E9FF00ED024F /* Preview Content */,
-				B5AD8C9F2AB9EC7700ED024F /* SText.swift */,
-				B5B4AAE22AB9FB0D00426553 /* STextField.swift */,
 			);
 			path = SignalsUI;
 			sourceTree = "<group>";
@@ -161,6 +208,7 @@
 			name = SignalsUI;
 			packageProductDependencies = (
 				B5AD8C9D2AB9EAF600ED024F /* Signals */,
+				B59FA3B92ABA0CB8001C8500 /* SignalUI */,
 			);
 			productName = SignalsUI;
 			productReference = B5AD8C6F2AB9E9FF00ED024F /* SignalsUI.app */;
@@ -276,10 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AD8C752AB9E9FF00ED024F /* ContentView.swift in Sources */,
+				B546499D2ABC451B004AC8CC /* BalanceModel.swift in Sources */,
+				B5AD45482ABBB732003A3946 /* SessionState.swift in Sources */,
+				B59FA36F2ABA01D0001C8500 /* StateView.swift in Sources */,
+				B5AD45412ABB9F84003A3946 /* HomeScreen.swift in Sources */,
+				B5AD8C752AB9E9FF00ED024F /* SignalsStateView.swift in Sources */,
+				B5AD453C2ABB9070003A3946 /* StateText.swift in Sources */,
+				B5DA3DB32ABF886300FE9469 /* VoucherModel.swift in Sources */,
+				B546499F2ABC4729004AC8CC /* UserScreen.swift in Sources */,
 				B5AD8C732AB9E9FF00ED024F /* SignalsUIApp.swift in Sources */,
-				B5AD8CA02AB9EC7700ED024F /* SText.swift in Sources */,
-				B5B4AAE32AB9FB0D00426553 /* STextField.swift in Sources */,
+				B5AD44FB2ABA4CEB003A3946 /* LoginScreen.swift in Sources */,
+				B5AD454A2ABC3240003A3946 /* AgeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignalsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = EZ9AN92LB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -466,6 +522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SignalsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = EZ9AN92LB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -600,6 +657,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B59FA3B92ABA0CB8001C8500 /* SignalUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SignalUI;
+		};
 		B5AD8C9D2AB9EAF600ED024F /* Signals */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Signals;
